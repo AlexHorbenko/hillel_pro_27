@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+ 
+<body>
+
+    <!-- <form class="registration" action="http://fom.in.ua/echo" method="post"> -->
+    <form class="registration" id="form">
+        <fieldset class="elements">
+            <legend>Заповніть форму</legend>
+            <label class="name">
+                Ім'я Прізвище
+                <input id="name" type="text" name="your-name" data-key="Ім'я Прізвище" placeholder="Олександра Горбенко" required autofocus>
+            </label>
+            <label class="date">
+                Дата народження
+                <input type="date" name="b-day" data-key="Дата народження" required>
+            </label>
+            <label class="sex">
+                Чоловік <input type="radio" name="sex" value="man" data-key="Стать">
+                Жінка <input type="radio" name="sex" value="wom" data-key="Стать" checked>
+                Дитина <input type="radio" name="sex" value="child" data-key="Стать">
+            </label>
+            <label class="city">
+                Місто
+                <select name="city" data-key="Місто">
+                    <option value="kyiv">Київ</option>
+                    <option value="lviv">Львів</option>
+                    <option value="kharkiv">Харків</option>
+                    <option value="dnipro">Дніпро</option>
+                    <option value="odesa">Одеса</option>
+                </select>
+            </label>
+            <textarea class="address" rows="3" cols="30" data-key="Адреса" name="message" placeholder="Адреса"></textarea>
+            <p>Мови, якими володієте</p>
+            <label class="language">
+                Англійська
+                <input type="checkbox" name="Eng" data-key="Мова">
+            </label>
+            <label class="language">
+                Українська
+                <input type="checkbox" name="Ukr" data-key="Мова" checked>
+            </label>
+            <label class="language">
+                Німецька
+                <input type="checkbox" name="Deutch" data-key="Мова">
+            </label>
+            <p class="button">
+                <button type="button">Зберегти</button>
+            </p>
+        </fieldset>
+    </form>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

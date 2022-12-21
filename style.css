@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+.html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.registration {
+    font-size: 18px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 500;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.elements {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+label {
+    margin-bottom: 15px;
+}
+
+
+/* .modal {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    background-color: azure;   
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal__content {
+    background-color: aquamarine;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+} */
+
+.hide {
+    display: none;
+}
